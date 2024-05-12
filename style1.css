@@ -1,0 +1,413 @@
+#home .logo {
+    border: 4.5px solid blue;
+    width: 4.5%;
+    height: 4.5%;
+}
+
+#home .menu {
+    opacity: 0.78;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#home .pages {
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 14%;
+    width: 80%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#home .vision {
+    margin-top: 7%;
+    text-align: center;
+    color: rgb(156, 70, 70);
+}
+#home .vision .pvision{
+    color: rgb(68, 14, 14);
+    font-size: 1.5em;
+}
+
+#home .mission {
+    margin-top: 7%;
+    text-align: center;
+    color: rgb(156, 70, 70);
+}
+#home .mission .pmission{
+    color: rgb(68, 14, 14);
+    font-size: 1.5em;
+}
+
+#home .images{
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#home .images1{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#home .images2{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#home .exterior, #home .interior1,#home .interior2, #home .interior3 {
+    width:40%;
+    height: 40%;
+}
+
+#info .introductory{
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#info .about {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+#info .introductory h1{
+    margin-top: 7%;
+    margin-left: 6%;
+    color: rgb(10, 90, 70);
+}
+
+#info .introductory .hospitality{
+    width: 20%;
+}
+
+#info .introductory .about p{
+    width: 75%;
+    font-size: 1.5em;
+    color: rgb(0, 81, 128);
+}
+
+#info .logo {
+    border: 4.5px solid blue;
+    width: 4.5%;
+    height: 4.5%;
+}
+
+#info .menu {
+    opacity: 0.78;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#info .pages {
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 14%;
+    width: 80%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#info .news {
+    margin-top: 5%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+#info .news .title {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 75%;
+
+}
+
+#info .news .title p{
+    font-size: 1.5em;
+    color: rgb(0, 81, 128);
+}
+
+#info .news .title h1{
+    color: rgb(13, 0, 128);
+}
+
+#info .offer {
+    margin-top: 5%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+#info .offer p{
+    width: 65%;
+    font-size: 1em;
+    color: rgb(0, 81, 128);
+}
+
+#info .offer .deluxe {
+    width: 40%;
+}
+
+#info .offer .offer1{
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#info .offer .offer1 h1{
+    color: rgb(255, 64, 0);
+}
+
+#info .faqs {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#info .faqs h1{
+    color: rgb(255, 0, 0);
+}
+
+#info .faqs p {
+    color: green;
+}
+
+#services .logo {
+    border: 4.5px solid blue;
+    width: 4.5%;
+    height: 4.5%;
+}
+
+#services .menu {
+    opacity: 0.78;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .pages {
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 14%;
+    width: 80%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all {
+    gap: 40px;
+    margin-top: 7%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .rooms {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .rooms .roomse {
+    width: 70%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .dining {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .dining .dininge {
+    width: 70%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .activities {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .activities .activitiese {
+    width: 70%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .services {
+    width: 70%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#services .all .services p{
+    width: 70%;
+}
+
+#services .all .rooms .roomse h1,
+ #services .all .dining .dininge h1,
+ #services .all .activities .activitiese h1
+ {
+    color: rgb(255, 0, 89);
+ }
+
+ #services .all .services p b {
+    color: blue;
+ }
+
+ #services .all .rooms .roomse p,
+ #services .all .dining .dininge p,
+ #services .all .activities .activitiese p
+ {
+    color: rgb(68, 14, 14);
+    font-size: 1.2em;
+ }
+
+ 
+#booking .logo {
+    border: 4.5px solid blue;
+    width: 4.5%;
+    height: 4.5%;
+}
+
+#booking .menu {
+    opacity: 0.78;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#booking .pages {
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 14%;
+    width: 80%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#booking .form {
+    text-align: left;
+    margin-top: 8%;
+}
+
+#contact .logo {
+    border: 4.5px solid blue;
+    width: 4.5%;
+    height: 4.5%;
+}
+
+#contact .menu {
+    opacity: 0.78;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#contact .pages {
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 14%;
+    width: 80%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#contact .contact {
+    margin-top: 7%;
+}

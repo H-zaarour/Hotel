@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>By the beach Hotel</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- favicon -->
+    <link rel="icon" href="images/hotelicon.jpg" type="image/x-icon">
+  </head>
+  <body id="booking">
+    <!-- menu bar -->
+    <div class="menu">
+      <img class="logo" src="images/logo.png" alt="logo" >
+      <div class="pages">
+        <a href="index.html"><b>Home Page</b></a>
+        <a href="INFO.html"><b>Insight Informations</b></a>
+        <a href="SERVICES.html"><b>Available Services</b></a>
+        <a href="BOOKING.html"><b>Booking</b></a>
+        <a href="CONTACT.html"><b>Contact Us</b></a>  
+      </div> 
+    </div>
+    <!-- booking form -->
+    <form method="post" name="form1" enctype="form/multipart" class="form">
+      <p>
+        <b>Customer Name: </b>
+        <input type="text" name="customer name" size="25" maxlength="25" value="Your Name">
+      </p>
+      <label for="check-in date"><b>Check-in Date: </b></label>
+      <input type="date" id="check-in date" name="check-in date">
+      <br><br>
+      <label for="check-out date"><b>Check-out Date: </b></label>
+      <input type="date" id="check-out date" name="check-out date">
+      <label for="numbers"><b>Number Of Visitors: </b></label>
+        <select name="numbers" id="numbers">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      <br><br>
+      <label for="phone"><b>Enter a phone number: </b></label><br><br>
+      <input type="tel" id="phone" name="phone" placeholder="123-03-123456" pattern="[0-9]{3}-[0-9]{2}-[0-9]{6}" required><br><br>
+      <small>Format: 123-45-123456</small><br><br>
+      <p>
+        <b>Email: </b>
+        <input type="text" name="email" size="25" maxlength="25" value="youremail@gmail.com">
+      </p>
+      <br><br>
+      <textarea rows="10" cols="50" name="comment" form="usrform">
+        Enter text here...</textarea>
+      <br><br>
+      <input type="submit">
+    </form>
+  </body>
